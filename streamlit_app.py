@@ -23,6 +23,5 @@ def run_query(query):
 rows = run_query("SELECT * FROM `integracao-414415.data_ptl.produtos_bling_proteloja` LIMIT 10")
 
 # Print results.
-st.write("Some wise words from Shakespeare:")
-for row in rows:
-    st.write("✍️ " + row['word'])
+
+st.write(rows)
